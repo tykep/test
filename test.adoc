@@ -1,0 +1,22 @@
+.PlantUMLの例
+[plantuml,test,png, width=300, id="Figure-{counter:ic}", caption="図{ic} - "]
+----
+actor Actor as aID
+artifact Artifact{
+    node Node as nID
+    file File as fID
+}
+aID --> nID
+nID .right.> fID
+----
+
+[plantuml,test,png, width=300, id="Figure-{counter:ic}", caption="図{ic} - "]
+----
+actor Actor as aID
+artifact Artifact{
+    node Node as nID
+    file File as fID
+}
+aID --> nID
+nID .right.> fID
+----
